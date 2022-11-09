@@ -1,0 +1,13 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalho > div {
+    display: flex;
+    justify-content: end;
+    margin-right: 0.875rem;
+}
+.cabecalho > div i {
+    margin-left: 2.25rem;
+}
