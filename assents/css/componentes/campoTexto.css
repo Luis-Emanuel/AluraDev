@@ -1,0 +1,12 @@
+.campoTexto{
+    background-color: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    padding: 16px 14px;
+}
+.campoTexto::placeholder{
+    color: #ffffff;
+}
+.campoTexto:focus{
+    background-color: rgba(255, 255, 255, 0.24);
+    outline: none;  
+}

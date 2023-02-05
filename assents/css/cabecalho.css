@@ -1,13 +1,12 @@
 .cabecalho{
     display: flex;
     align-items: center;
+    column-gap: 167px;
     justify-content: space-between;
+    padding-bottom: 40px;
 }
-.cabecalho > div {
-    display: flex;
-    justify-content: end;
-    margin-right: 0.875rem;
+.campoBusca{
+    width: 47rem;
 }
-.cabecalho > div i {
-    margin-left: 2.25rem;
-}
+
+

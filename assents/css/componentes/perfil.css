@@ -1,0 +1,16 @@
+.perfil{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 8px;
+    align-items: center;
+}
+.perfil::before{
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../../img/Photo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,17 @@
+.menu-lateral{
+    display: flex;
+    flex-direction: column;
+}
+.menu-lateral > p{
+    font-weight: 400;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+}
+.menu-lateral__link{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: sans-serif;
+}

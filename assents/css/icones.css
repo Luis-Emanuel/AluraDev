@@ -25,15 +25,26 @@
 .icon-lupa:before {
   content: "\e900";
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .icon-pessoas:before {
   content: "\e901";
   color: #fff;
+  font-size: 1.25rem;
+  background-color: var(--cor-1);
+  padding: 16px;
+  border-radius: 8px;
+  margin-right: 16px;
 }
 .icon-codigo:before {
   content: "\e902";
   color: #fff;
+  font-size: 1.25rem;
+  background-color: var(--cor-3);
+  padding: 16px;
+  border-radius: 8px;
+  margin-right: 16px;
+  
 }
 .icon-menu_ativo:before {
   content: "\e903";

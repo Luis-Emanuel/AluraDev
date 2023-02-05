@@ -1,22 +1,29 @@
 @import url(reset.css);
+@import url(icones.css);
+@import url(componentes/perfil.css);
+@import url(componentes/campoTexto.css);
 :root{
     /*Cores*/
-    --fundo: #051D3B;
-    --cor-1: #5081FB;
-    --cor-2: #7BA4FC;
-    --cor-3: #96B9FD;
+    --fundo: rgb(5, 29, 59);
+    --cor-1: rgba(80, 129, 251, 0.16);
+    --cor-2: rgb(80, 129, 251);
+    --cor-3: rgb(123, 164, 252);
+    --cor-4: rgb(150, 185, 253);
 
-    /*tipografia*/
+    /*tipografia-tamanho*/
     --titulo: 21px 32px;
     --corpo: 16px 24px;
     --titulo-barra-lateral: 12px 18px
 
     /*sombras*/
     --sombra:0px 16px rgb(0,0,0,0.24);
-   
+
 }
 body{
     background-color: var(--fundo);
     font-size: var(--corpo);
-    margin: 16px;
+    margin: 32px;
+    padding: auto;
+    font-family: sans-serif;
+    color: #ffffff;
 }
