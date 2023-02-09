@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'icomoon';
   src:  
-    url('../fonts/icomoon.ttf') format('truetype');
+    url('../../fonts/icomoon.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,21 +26,27 @@
   content: "\e900";
   color: #fff;
   font-size: 1.25rem;
+  background-color: rgba(80, 129, 251, 0.16);;
+  padding: 16px;
+  border-radius: 8px;
+  margin-right: 16px;
+  opacity: 0.64;
 }
 .icon-pessoas:before {
   content: "\e901";
   color: #fff;
   font-size: 1.25rem;
-  background-color: var(--cor-1);
+  background-color: rgba(80, 129, 251, 0.16);;
   padding: 16px;
   border-radius: 8px;
   margin-right: 16px;
+  opacity: 0.64;
 }
-.icon-codigo:before {
+.icon-codigo__ativo:before {
   content: "\e902";
   color: #fff;
   font-size: 1.25rem;
-  background-color: var(--cor-3);
+  background-color: var(--cor-1);
   padding: 16px;
   border-radius: 8px;
   margin-right: 16px;
@@ -49,28 +55,34 @@
 .icon-menu_ativo:before {
   content: "\e903";
   color: #fff;
+  font-size: 1.25rem;
 }
 .icon-coracao_ativo:before {
   content: "\e904";
-  color: #f65151;
+  color: #d11a1a;
+  font-size: 1.25rem;
 }
 .icon-coracao:before {
   content: "\e905";
   color: #fff;
+  font-size: 1.25rem;
 }
 .icon-comentario:before {
   content: "\e906";
   color: #fff;
+  font-size: 1.25rem;
 }
 .icon-bandeira:before {
   content: "\e907";
   color: #fff;
+  font-size: 1.25rem;
 }
 .icon-menu:before {
   content: "\e908";
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .icon-seta:before {
   content: "\e909";
+  color: #f8f8f8;
 }
