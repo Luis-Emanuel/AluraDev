@@ -1,10 +1,11 @@
 .cabecalho{
     display: flex;
-    align-items: center;
-    column-gap: 167px;
     justify-content: space-between;
-    padding-bottom: 40px;
+    align-items: center;
+    margin-bottom: 5rem;
 }
-.campo-busca{
-    width: 47rem;
+.campo__busca{
+    width: 100%;
+    margin-left: 10.438rem;
+    margin-right: 13.625rem;
 }

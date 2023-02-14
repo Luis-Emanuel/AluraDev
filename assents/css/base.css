@@ -17,6 +17,9 @@
     /*sombras*/
     --sombra:0px 16px rgb(0,0,0,0.24);
 
+    /*borda*/
+    --borda: 8px;
+
 }
 body{
     box-sizing: border-box;
@@ -27,3 +30,6 @@ body{
     font-family: 'Inter', sans-serif;
     color: #ffffff;
 }
+
+
+

@@ -1,0 +1,32 @@
+.cartao {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 100%;
+    margin-left: 10.438rem;
+    margin-right: 4.5rem;
+}
+.cartao__borda{
+    padding: 2rem;
+    background-color: #6BD1FF;
+    border-radius: var(--borda);
+}
+
+
+.cartao__viewer {
+    background-color: black;
+    padding: 1rem;
+    border-radius: var(--borda);
+}
+
+.cartao__imagem {
+    max-width: 3.25rem;
+}
+
+.cartao__botao {
+    width: 100%;
+    background-color: rgba(80, 129, 251, 0.08);
+    padding: 1rem;
+    border-radius: var(--borda);
+    font-weight: 200;
+}

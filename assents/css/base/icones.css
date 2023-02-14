@@ -28,7 +28,7 @@
   font-size: 1.25rem;
   background-color: rgba(80, 129, 251, 0.16);;
   padding: 16px;
-  border-radius: 8px;
+  border-radius: var(--borda);
   margin-right: 16px;
   opacity: 0.64;
 }
@@ -38,7 +38,7 @@
   font-size: 1.25rem;
   background-color: rgba(80, 129, 251, 0.16);;
   padding: 16px;
-  border-radius: 8px;
+  border-radius: var(--borda);
   margin-right: 16px;
   opacity: 0.64;
 }
@@ -48,7 +48,7 @@
   font-size: 1.25rem;
   background-color: var(--cor-1);
   padding: 16px;
-  border-radius: 8px;
+  border-radius: var(--borda);
   margin-right: 16px;
   
 }

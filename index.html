@@ -11,37 +11,63 @@
     <link rel="stylesheet" href="assents/css/componentes/cabecalho.css">
     <link rel="stylesheet" href="assents/css/componentes/menuLateral.css">
     <link rel="stylesheet" href="assents/css/componentes/formularioProjeto.css">
+    <link rel="stylesheet" href="assents/css/componentes/codigo.css">
     <title>AluraDev</title>
 </head>
 
 <body>
     <header class="cabecalho">
         <img class="logo" src="assents/img/Logo.png" alt="Logo escrito 'ALURA DEV'">
-        <input class="campo-texto campo-busca" type="text" placeholder="Busque por algo">
+        <input class="campo__texto campo__busca" type="text" placeholder="Busque por algo">
         <p class="perfil">Harry</p>
     </header>
     <main class="corpo">
-        <nav class="menu-lateral">
+        <nav class="menu__lateral">
             <p>Menu</p>
-            <a class="icon-codigo__ativo" href="#"><p class="menu-lateral__link" href="#">Editor de código</p></a>
-            <a class="icon-pessoas" href="#"><p class="menu-lateral__link " href="#">Comunidade</p></a>
+            <a class="icon-codigo__ativo" href="#">
+                <p class="menu__lateral--link" href="#">Editor de código</p>
+            </a>
+            <a class="icon-pessoas" href="#">
+                <p class="menu__lateral--link " href="#">Comunidade</p>
+            </a>
         </nav>
+        <div class="cartao">
+            <div class="cartao__borda">
+                <div class="cartao__viewer">
+                    <img class="cartao__imagem" src="assents/img/mac_buttons.svg" alt>
+                        <code class="cartao__codigo"><br>
+                            const pluckDeep = key => obj => key.split('.').reduce((accum, key) =>  accum[key], obj)<br>
+                
+                        const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)<br>
+                
+                        const unfold = (f, seed) => {<br>
+                          const go = (f, seed, acc) => {<br>
+                            const res = f(seed)<br>
+                            return res ? go(f, res[1], acc.concat([res[0]])) : acc<br>
+                          }<br>
+                          return go(f, seed, [])<br>
+                        }<br>
+                        </code>
+                </div>
+            </div> 
+            <button class="cartao__botao">Visualizar com o highlight</button>
+        </div>
         <form class="formulario">
-            <fieldset class="novo-projeto">
-                <legend class="formulario-titulo">Seu projeto</legend>
-                <input class="campo-texto" type="text" placeholder="Nome do seu projeto" required>
-                <textarea class="campo-texto" type="text" placeholder="Descrição do seu projeto"></textarea>
+            <fieldset class="novo__projeto">
+                <legend class="formulario__titulo">Seu projeto</legend>
+                <input class="campo__texto" type="text" placeholder="Nome do seu projeto" required>
+                <textarea class="campo__texto" type="text" placeholder="Descrição do seu projeto"></textarea>
             </fieldset>
             <fieldset class="personalizacao">
-                <legend class="formulario-titulo">Personalização</legend>
-                <select class="campo-texto formulario-linguagem" name="" id="">
+                <legend class="formulario__titulo">Personalização</legend>
+                <select class="campo__texto formulario__linguagem" name="" id="">
                     <option value="">JavaScript</option>
                 </select>
-                <div class="personalizacao-cor">
+                <div class="personalizacao__cor">
                     <div></div>
                 </div>
             </fieldset>
-            <input class="formulario-botao " type="submit" value="Salvar projeto" >
+            <input class="formulario__botao " type="submit" value="Salvar projeto">
         </form>
     </main>
 </body>
